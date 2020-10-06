@@ -1,4 +1,5 @@
-##Makefile
+<h1 align="center">Makefile<h1>
+
 
 <p align="center">
   <img src="/blogs/img/makefile/mlogo.png" height=400 width=800>
@@ -10,19 +11,24 @@ Makefile is based on a utility provided by GNU known as make utility. It is basi
 Once we build a makefile ,we need not to worry about running gcc and g++ commands rather than the makefile will do all the job with its execution command.
 
 
-##Naming Convention of the file
+<h1 align="center">Naming Convention of the file<h1>
+
 
 Naming of a makefile is standard as make utility search some particular key terms while searching the files.
 
 Names that can be used while creating makefile: makefile, Makefile, GNUmakefile
 Among all these names, ‘Makefile’ is most common and recommended to be used as file name.
 
-##Variables
-                                                  
+
+<h1 align="center">Variables<h1>
+
+
 A variable is a name defined in a makefile to represent a string of text, called the variable’s value. These values are substituted by explicit request into targets, prerequisites, recipes, and other parts of the makefile. 
 Variables are accessed by ‘$’ symbol.
 
-##Basic structure of makefile
+
+<h1 align="center">Basic structure of makefile<h1>
+
 
 The simplest structure of makefiles include rules which states the target , prerequesites and the command we want to perform known as recipe.
 
@@ -46,7 +52,9 @@ Example =>
 
                      g++ hello.cpp
 
-##Hands On Example
+
+<h1 align="center">Hands On Example<h1>
+
 
 First create some cpp files and a header file to provide a whole code to the compiler in a distributive manner.
 
